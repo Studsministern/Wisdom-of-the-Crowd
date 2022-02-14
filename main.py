@@ -27,7 +27,7 @@ def get_guess(comment):
 
 def main():
     # Makes soup of the html page
-    url = 'C:/Program Files/GitHub/Wisdom-of-the-Crowd/facebook_data.html'
+    url = 'C:/Program Files/GitHub/Wisdom-of-the-Crowd/examples/example1.html'
     page = open(url, encoding='utf8')
     soup = BeautifulSoup(page.read(), 'html.parser')
 
@@ -39,7 +39,7 @@ def main():
     for comment in comments:
         number = get_guess(comment)
         # Check so every number contains something and isn't too large or too small
-        if number is not None and 300000 > number > 1000:
+        if number is not None and 1000 < number < 300000:
             lines.append(number)
 
     # Makes a dataframe
