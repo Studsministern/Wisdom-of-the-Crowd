@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9d0335c-ca9d-41df-af02-e6f7ccc92512" name="Changes" comment="">
+    <list default="true" id="b9d0335c-ca9d-41df-af02-e6f7ccc92512" name="Changes" comment="Instagram support, inputs, handles wrong parsing and division by zero">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/example1.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +76,13 @@
       <option name="presentableId" value="Default" />
       <updated>1644864702263</updated>
     </task>
+    <task id="LOCAL−00001" summary="Instagram support, inputs, handles wrong parsing and division by zero">
+      <created>1644957218717</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1644957218717</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,5 +96,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Instagram support, inputs, handles wrong parsing and division by zero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Instagram support, inputs, handles wrong parsing and division by zero" />
   </component>
 </project>

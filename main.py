@@ -22,7 +22,10 @@ def get_guess(comment):
 
     # Returns a combination of numbers, if the guess is for example '18.500 st', otherwise just returns the number
     if len(comment_numbers) > 1:
-        return int(str(comment_numbers[0]) + str(comment_numbers[1]))
+        full_number = ''
+        for i in range(0, len(comment_numbers)):
+            full_number += str(comment_numbers[i])
+        return int(full_number)
     elif len(comment_numbers) == 1:
         return comment_numbers[0]
 
